@@ -30,10 +30,16 @@ github_username:  jayeshinde
 linkedin_username: jayeshshinde
 facebook_username: 
 
+google_analytics:   UA-145867070-2
+
 # Build settings
 theme: jekyll-theme-clean-blog
+markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+paginate: 5
+paginate_path: "/posts/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
