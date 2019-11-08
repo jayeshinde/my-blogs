@@ -34,7 +34,6 @@ sass:
 sass_dir: _sass
 style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
 google_analytics:   UA-145867070-2
 
 # Build settings
