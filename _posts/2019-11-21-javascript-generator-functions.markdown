@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JavaScript - Generator Functions"
+title:  "ES6 - Generator Functions"
 date:   2019-11-21 21:53:23 +0400
 categories: javascript interview questions
 ---
