@@ -4,7 +4,7 @@ title:  "Say No to Storyboards - Top 10 Reasons"
 date:   2019-12-19 21:53:23 +0400
 categories: swift interview questions
 ---
-As a Passionate iOS Developer, working more than a Decade in Mobile technologies and its integration with different enterprise platforms like SAP, Salesforce, IBM Mainframe, MS Sharepoint, AWS Cloud. Managing such large scale Enterprise or Custom Facing iOS Native apps is key challenges organizations are facing. Today, I will tell **Top 10 Reasons - Say No to Storyborards.**
+As a Passionate iOS Developer, working more than a Decade in Mobile technologies and its integration with different enterprise platforms like SAP, Salesforce, IBM Mainframe, MS Sharepoint, AWS Cloud, managing such large scale Enterprise or Customer Facing iOS Native app is key challenge organizations are facing. Today, I will tell **Top 10 Reasons - Say No to Storyborards.**
 
 `Why to Say No (In Dilemma whether to use Storyboard or Not):`
 
