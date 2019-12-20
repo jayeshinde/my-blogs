@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Jayesh's friendly tips to learn lesson in Swift, TypeScript, Javascript, Node.
 baseurl: "/my-blogs" # the subpath of your site, e.g. /blog
 url: "https://jayeshinde.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jayesh12
+twitter_username: learnthelessons
 github_username:  jayeshinde
 linkedin_username: jayeshshinde
 facebook_username: 
