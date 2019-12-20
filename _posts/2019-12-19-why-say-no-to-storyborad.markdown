@@ -21,9 +21,9 @@ As a Passionate iOS Developer, working more than a Decade in Mobile technologies
 6. Refactoring of element within storyborads observed quite complex and tedious especially there are heavy fonts, styling, multilingual, deep localization.
 5. Storyboards are identified using *[StringIdentifiers][segue]*, which makes difficult to maintain routing or navigations in dynamic workflows scnerios.
 4. IBOutlet and IBActions causes viewcontrollers difficult to tests, thus reducing the code coverage. IBOutlet and IBActions causes app to have run time crash if any one of the linkage is missed.
-3. Layouting the Subviews become tedious when dealing with Universal apps, where multiple storybords needs to maintain for watch, ipad, iphone.
+3. Layouting the Subviews become tedious when dealing with Universal apps, where multiple storyboards needs to maintain for watch, ipad, iphone.
 2. Migrating to new XCode or Migrating to new APIs, its become difficult to find deprecated apis in terms of layouts, fonts, colors, etc. Storyboard causes UIWindow object to be available by default which makes difficult to manage.
-1. Apple is shifting towards Scence Deleagte where UIWindow become optional and UIScence is controlling the rendering. ( Scene Delegate, by default sets up a UIWindow object)
+1. Apple is shifting towards Scence Delegte where UIWindow become optional and UIScence is controlling the rendering. (Scene Delegate, by default sets up a UIWindow object)
 
 [swiftui]: https://developer.apple.com/xcode/swiftui/
 [storyboard]: https://developer.apple.com/library/archive/documentation/ToolsLanguages/Conceptual/Xcode_Overview/UsingInterfaceBuilder.html#//apple_ref/doc/uid/TP40010215-CH42-SW1
