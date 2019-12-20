@@ -9,20 +9,20 @@ As a Passionate iOS Developer, working more than a Decade in Mobile technologies
 `Why to Say No (In Dilemma whether to use Storyboard or Not):`
 
 - Apple introduced new [SwiftUI][swiftui]
-- There is shift in programming paradimes from Imperative to Declerative
-- Maintain large apps with more number of Storyboards becoming bottlenecks to prevent use of CICD, adopt new programming paradimes, upgrade iOS native apps.
+- There is shift in programming paradigm from Imperative to Declarative
+- Maintain large apps with more number of Storyboards becoming bottlenecks to prevent use of CICD, adopt new programming paradigm, upgrade iOS native apps.
 
 `Top 10 Reasons`
 
 10. [Storyboard][storyboard] uses XML which follows Apple own propertiery schema. While working with large teams of developers, with multiple storyboards, managing the merges issues becomes headache, especially when more than single person working on the same storyboard. Thus decrease in productivity.
-9. Storyboards has small windows to manage which makes difficult to have fine grain precision, especially in conditions where there are more than 10 views or contorls.
+9. Storyboards has small windows to manage which makes difficult to have fine grain precision, especially in conditions where there are more than 10 views or controls.
 8. Storyboards follows Target-Action Pattern which makes difficult to test large app.
 7. Dramatic Increase in the Compile time of project observed when working with storyboards, more than 100.
 6. Refactoring of element within storyborads observed quite complex and tedious especially there are heavy fonts, styling, multilingual, deep localization.
 5. Storyboards are identified using *[StringIdentifiers][segue]*, which makes difficult to maintain routing or navigations in dynamic workflows scnerios.
 4. IBOutlet and IBActions causes viewcontrollers difficult to tests, thus reducing the code coverage. IBOutlet and IBActions causes app to have run time crash if any one of the linkage is missed.
-3. Layouting the Subviews become tedious when dealing with Universal apps, where multiple storybords needs to mainatain for watch, ipad, iphone.
-2. Migrating to new XCode or Migrating to new APIs, its become difficult to find deprecated apis in terms of layouts, fonts, colors, etc. Storyboard causes UIWindow object to be aviable by default which makes difficult to manage.
+3. Layouting the Subviews become tedious when dealing with Universal apps, where multiple storybords needs to maintain for watch, ipad, iphone.
+2. Migrating to new XCode or Migrating to new APIs, its become difficult to find deprecated apis in terms of layouts, fonts, colors, etc. Storyboard causes UIWindow object to be available by default which makes difficult to manage.
 1. Apple is shifting towards Scence Deleagte where UIWindow become optional and UIScence is controlling the rendering. ( Scene Delegate, by default sets up a UIWindow object)
 
 [swiftui]: https://developer.apple.com/xcode/swiftui/
