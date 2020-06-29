@@ -7,8 +7,8 @@ categories: angular web development
  
 
 
-Verion 10.0.0 is major relase that span the entire platform which includes  Material, CLI and framework.
-> Having 2 major releases within year angualr team kept the framework synchronized with latest version of Javascript and Typescript ecosystem.
+Version 10.0.0 is major relase that span the entire platform which includes  Material, CLI and framework.
+> Having 2 major releases within year angular team kept the framework synchronized with latest version of Javascript and Typescript ecosystem.
 
 #### Major Changes:
 
@@ -63,8 +63,8 @@ Verion 10.0.0 is major relase that span the entire platform which includes  Mate
     }
     ```
 - UnDecorated Base Classes Removed
-    - If you have `Angular Decorator` or `Dependancy Injection` then we need to decorate the base classes also.
-    - Depedancy Injection Example
+    - If you have `Angular Decorator` or `Dependency Injection` then we need to decorate the base classes also.
+    - Dependency Injection Example
         ```javascript
         @Directive()
         export abstract class AbstractSome {
@@ -85,7 +85,7 @@ Verion 10.0.0 is major relase that span the entire platform which includes  Mate
     - Angular Material now have new date range picker constructed from `mat-date-range-input` and `mat-date-range-picker` components.
 
 - Warnings about CommonJS imports
-    - Use of CommonJS for depencancy manager result in larger slower applications. 
+    - Use of CommonJS for dependency manager result in larger slower applications. 
     - It is now recommendable to use an ECMAScript module (ESM) bundle for your depedancies
 
 - Optional Strict Settings
