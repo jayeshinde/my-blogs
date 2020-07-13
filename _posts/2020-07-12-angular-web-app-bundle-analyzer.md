@@ -6,6 +6,7 @@ categories: angular web development
 ---
 
 In large Enterprise, it become difficult to manage Angular PWA apps considering performance. Therefore this become vital to look where the code in the final build come from using Bundle Webpack Analyzer.
+
 - Performance is all about Improving Conversions
 - Performance is all about Retaining the Users
 - Performance is all about the User Experience
@@ -18,9 +19,9 @@ In large Enterprise, it become difficult to manage Angular PWA apps considering 
 
 Angular Web Pack Bundle Analyzer acts as X-Ray for your application, where one can identify the potential problem to increase in the bundle. Understand what you can do to make it smaller and further-optimized. The webpack-bundle-analyzer tool is perfect for this!
 
-#### Configuration Steps:
+#### Configuration Steps
 
-![alt text](../img/ang-webpack.png "BundleAnalyzer")
+![alt text]({{"img/ang-webpack.png"| absolute_url}} "BundleAnalyzer"){:height="400px" width="100%"}
 
 Head over to `app.component.ts` and `import` these into our `main.js` bundle:
 
@@ -34,7 +35,8 @@ Head over to `app.component.ts` and `import` these into our `main.js` bundle:
             templateUrl: './app.component.html',
             styleUrls: ['./app.component.scss']
         })
-    export class AppComponent  implements OnInit {
+
+    export class AppComponent implements OnInit {
         ngOnInit(): void {
             const time = moment.utc();
             const firebaseConfig = {};
@@ -59,8 +61,9 @@ We can make another script which runs the `webpack-bundle-analyzer` with the `st
 ```
 
 - Run the analyzer with the following command:
+
 ```javascript
-$ npm run analyze
+npm run analyze
 ```
 
 We then be able to see your analysis over at localhost:8888:
@@ -70,7 +73,7 @@ Webpack Bundle Analyzer is started at http://127.0.0.1:8888
 Use Ctrl+C to close it
 ```
 
-![alt text](../img/webpack-bundle-analysis.png "BundleAnalyzer")
+![alt text]({{"/img/webpack-bundle-analysis.png"| absolute_url }} "BundleAnalyzer"){:height="400px" width="100%"}
 
 [pininterest]: https://medium.com/@Pinterest_Engineering/driving-user-growth-with-performance-improvements-cfc50dafadd7
 [cook]: https://www.nccgroup.trust/globalassets/resources/uk/case-studies/web-performance/cook-case-study.pdf
