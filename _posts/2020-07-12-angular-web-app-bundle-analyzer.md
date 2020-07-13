@@ -20,7 +20,7 @@ Angular Web Pack Bundle Analyzer acts as X-Ray for your application, where one c
 
 #### Configuration Steps:
 
-![alt text](https://github.com/jayeshinde/my-blogs/blob/gh-pages/img/ang-webpack.png "BundleAnalyzer")
+![alt text](../img/ang-webpack.png "BundleAnalyzer")
 
 Head over to `app.component.ts` and `import` these into our `main.js` bundle:
 
@@ -70,7 +70,7 @@ Webpack Bundle Analyzer is started at http://127.0.0.1:8888
 Use Ctrl+C to close it
 ```
 
-![alt text](https://github.com/jayeshinde/my-blogs/blob/gh-pages/img/webpack-bundle-analysis.png "BundleAnalyzer")
+![alt text](../img/webpack-bundle-analysis.png "BundleAnalyzer")
 
 [pininterest]: https://medium.com/@Pinterest_Engineering/driving-user-growth-with-performance-improvements-cfc50dafadd7
 [cook]: https://www.nccgroup.trust/globalassets/resources/uk/case-studies/web-performance/cook-case-study.pdf
